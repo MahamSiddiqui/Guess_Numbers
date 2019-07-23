@@ -5,7 +5,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url(Guess_Numbers-master\mathbg.jpg);
+    background-image: url(mathbg.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 
