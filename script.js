@@ -12,17 +12,38 @@ function guessTheNumber() {
     let userInput = parseInt(document.querySelector("input").value);
 
     if (userInput > randomNumber) {
-        alert("Too Big!");
+        swal({
+            title: "Oh Too Big",
+            text: "Do you want to contineue?",
+            icon: "error",
+            buttons: ["NO", "Yes"]
+          });
+        // swal("Too Big!");
         count++;
 
     } else if (userInput < randomNumber) {
-        alert("Too Small!");
+        swal({
+            title: "Oh Too Small",
+            text: "Do you want to contineue?",
+            icon: "error",
+            buttons: ["NO", "Yes"]
+          });
+        // swal("Too Small!");
+        
         count++;
+        
 
     } else {
-        alert("Congratulations! You have won! Number of guess you attemp " + count);
+        swal({
+            title: "Congratulations! You Won",
+            text: "Number of guess you attemp " + count,
+            icon: "success",
+          });
+        // swal("Congratulations! You have won! Number of guess you attemp " + count);
         resetGame();
         console.log(randomNumber);
 
     }
 }
+
+

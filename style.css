@@ -1,1 +1,67 @@
-/*write code here.
+body{
+    font-family: 'Barriecito', cursive;
+    padding: 0;
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(Guess_Numbers-master\mathbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+h2{
+   
+    padding: 10px 10px 10px 10px;
+    margin-top: 20%;
+    color: #024019;
+    font-size: 40px;
+
+
+
+}
+input{
+    padding: 0px 40px 0px 40px;
+    text-align: center;
+    border-radius: 20px 20px;
+    border: 2px solid #024019;
+    outline: none;
+    font-size: 30px;
+    color: #024019;
+
+    
+    
+
+}
+.btn{
+    font-family: 'Barriecito', cursive;
+    text-decoration: none;
+    padding: 0px 45px 0px 45px;
+    font-size: 30px;;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-weight: 100;
+    background: none;
+    background: rgba(150, 150, 150, 0.5);
+    border: none;
+    margin-left: 25%;
+    margin-top: 30px; 
+    color: #024019;
+    transition: all 0.3s;
+    
+}
+.btn:hover,
+.btn:focus,
+.btn:active{
+    
+
+    border-radius: 50px;
+    font-weight: 600 !important;
+    letter-spacing: 3px;
+    background-color: none;
+    transition: all 0.3s;
+
+}
+.btn:focus{
+    outline: none;
+}
