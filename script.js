@@ -3,6 +3,7 @@ let count = 0;
 function resetGame() {
     randomNumber = parseInt(Math.random() * 101);
     count = 0;
+    //document.querySelector("input").value = "";
 }
 resetGame();
 console.log(randomNumber);
